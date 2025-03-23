@@ -27,7 +27,7 @@
 
 ```bash
 
-git clone https://github.com/Alikuoff/luxestore-catalog.git
+git clone https://github.com/Alikuoff/New-online-store-filter
 
 cd luxestore-catalog
 ```
