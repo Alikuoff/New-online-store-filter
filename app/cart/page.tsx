@@ -1,12 +1,10 @@
-import dynamic from "next/dynamic"
+"use client";
 
-// Use dynamic import with SSR disabled for the cart page
-// as it depends on client-side state
+import dynamic from "next/dynamic";
+
 const CartPageContent = dynamic(() => import("@/components/cart-page"), {
   ssr: false,
-})
+});
 
-export default function CartPage() {
-  return <CartPageContent />
-}
+export default CartPageContent;
 
